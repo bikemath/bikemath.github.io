@@ -6,6 +6,7 @@ title: Welcome
 <ol class="breadcrumb">
   <li><a href="/"><i class="fa fa-home"></i></a></li>
   <li class="active">Home</li>
+  <li class="active">TEST</li>
 </ol>
 
 <img src="{{ site.baseurl }}/images/DanaTeachingWide.jpg" class="img-responsive img-rounded" img style="margin-bottom: 10px" />
