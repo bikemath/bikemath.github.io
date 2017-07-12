@@ -13,7 +13,7 @@ title: Welcome
 {% if site.instagram_username %}
   <li>
     <a href="https://instagram.com/{{ site.instagram_username }}">
-      <i class="fa fa-instagram"></i> Twitter
+      <i class="fa fa-instagram"></i> Instagram
     </a>
   </li>
 {% endif %}
