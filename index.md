@@ -7,7 +7,10 @@ I'm a postdoctoral researcher at the US Air Force Institute of Technology. (My l
 
 Apart from my mathematics research and teaching career, my main personal interests revolve around cycling *--pun, regrattably, unintended.* Be it racing, touring, or commuting, it's a hobby that can handly turn into a full time job.
 
-![](images/bikes.jpg){width=300px}![](images/math.jpg){width=300px}
+<center>
+<img src="images/bikes.jpg" height="200px"><img src="images/math.jpg" height="200px">
+</center>
+
 
 ### [](#header-3)Research Interests
 My research intersts, broadly-stated, include topics in numerical analysis, scientific computing, and computational fluid dynamics. To be more specific, I'm interested in techniques used to approximate turbulent flow regimes, and how sensitive these models are to perturbations of their tuning parameters. The class of models I have the most experience with are large eddy simulation models (LES), which are widely applied in engineering and atmosperic sciences.
