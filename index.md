@@ -8,7 +8,7 @@ I'm a postdoctoral researcher at the US Air Force Institute of Technology. (My l
 Apart from my mathematics research and teaching career, my main personal interests revolve around cycling *--pun, regrattably, unintended.* Be it racing, touring, or commuting, it's a hobby that can handly turn into a full time job.
 
 <center>
-<img src="images/bikes.jpg" height="200px"><img src="images/math.jpg" height="200px">
+<img src="images/bikes.jpg" height="250px">&nbsp &nbsp &nbsp<img src="images/math.jpg" height="250px">
 </center>
 
 
