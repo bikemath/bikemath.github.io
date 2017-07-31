@@ -5,7 +5,7 @@ layout: default
 ### [](#header-3)About Me
 I'm a postdoctoral researcher at the US Air Force Institute of Technology. (My less-lengthy, more-official page can be found [here](https://www.afit.edu/BIOS/bio.cfm?facID=398)). I'm a fairly-recent graduate from the University of Nevada, Las Vegas. There, I completed a Ph.D. in applied mathematics under Dr. Monika Neda. 
 
-Apart from my mathematics research and teaching career, my main personal interests revolve around cycling *--pun, regrattably, unintended.* Be it racing, touring, or commuting, it's a hobby that can handly turn into a full time job.
+Apart from my mathematics research and teaching career, my main personal interests revolve around cycling *–pun, regrettably, unintended*. Be it racing, touring, or commuting, it’s a hobby that can handily turn into a full time job.
 
 <center>
 <img src="images/bikes.jpg" height="190px"> <span style="display:inline-block; width: 30px;"></span> <img src="images/math.jpg" height="190px">
@@ -13,7 +13,7 @@ Apart from my mathematics research and teaching career, my main personal interes
 
 
 ### [](#header-3)Research Interests
-My research intersts, broadly-stated, include topics in numerical analysis, scientific computing, and computational fluid dynamics. To be more specific, I'm interested in techniques used to approximate turbulent flow regimes, and how sensitive these models are to perturbations of their tuning parameters. The class of models I have the most experience with are large eddy simulation models (LES), which are widely applied in engineering and atmosperic sciences.
+My research interests, broadly-stated, include topics in numerical analysis, scientific computing, and computational fluid dynamics. To be more specific, I’m interested in techniques used to approximate turbulent flow regimes, and how sensitive these models are to perturbations of their tuning parameters. The class of models I have the most experience with are large eddy simulation models (LES), which are widely applied in engineering and atmospheric sciences.
 
 
 ### [](#header-3)Published Research
@@ -30,6 +30,7 @@ S. Breckling, An Extrapolated BDF2 Scheme for Incompressible Flows Regularized b
 S. Breckling, P. Kachroo, P. Lakhanpal, M. Neda, Numerical study of traffic flow models, *V International Conference of Industrial Engineering and Environmental Protections Proceedings*, pp.217-222, 2015
 
 ### [](#header-3)Recent Conference Talks
+**2017 JMM, Atlanta, GA** *A Numerical study of the Navier Stokes-α Deconvolution Model with Pointwise Mass Conservation*
 
 ### [](#header-3)Education
 **Ph.D. in Applied Mathematics** <br> 
