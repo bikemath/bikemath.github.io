@@ -26,7 +26,7 @@ S. Breckling, M. Neda, and F. Pahlevani, A Sensitivity Study of the Navier-Stoke
 ### [](#header-3)Submitted Research, and Drafts in Preparation
 S. Breckling, Regularizing an Extrapolated BDF2 Scheme for Incompressible Flows Regularized with Time Relaxation, (Prepared, to be submitted November 2017)
 
-S. Breckling, S. Shields, The Long-Time H^1 and H^2 Stability of Second Order Time-Stepping Methods for the Navier-Stokes Equations (In Preparation, to be submitted December 2017).
+S. Breckling, S. Shields, The Long-Time Stability of Second Order Time-Stepping Methods for the Navier-Stokes Equations (In Preparation, to be submitted December 2017).
 
 ### [](#header-4)Conference Proceedings
 S. Breckling, P. Kachroo, P. Lakhanpal, M. Neda, Numerical study of traffic flow models, *V International Conference of Industrial Engineering and Environmental Protections Proceedings*, pp.217-222, 2015
