@@ -21,10 +21,12 @@ S. Breckling, M. Neda, and T. Hill, [A Review of Time Relaxation Methods](http:/
 
 S. Breckling, and M. Neda [Numerical study of the Navier–Stokes-α deconvolution model with pointwise mass conservation](http://www.tandfonline.com/doi/full/10.1080/00207160.2017.1329532), *International Journal of Computer Mathematics*, pp 1-34 (Accepted 2016, Published 2017)
 
-### [](#header-3)Submitted Research, and Drafts in Preparation
-S. Breckling, M. Neda, and F. Pahlevani, A Sensitivity Study of the Navier-Stokes-α Model, *Submitted, 2017*
+S. Breckling, M. Neda, and F. Pahlevani, A Sensitivity Study of the Navier-Stokes-α Model, (Accepted 2017, Computers and Mathematics With Applications)
 
-S. Breckling, An Extrapolated BDF2 Scheme for Incompressible Flows Regularized by Time Relaxation, *In Preparation, 2017*
+### [](#header-3)Submitted Research, and Drafts in Preparation
+S. Breckling, Regularizing an Extrapolated BDF2 Scheme for Incompressible Flows Regularized with Time Relaxation, (Prepared, to be submitted November 2017)
+
+S. Breckling, S. Shields, The Long-Time H^1 and H^2 Stability of Second Order Time-Stepping Methods for the Navier-Stokes Equations (In Preparation, to be submitted December 2017).
 
 ### [](#header-4)Conference Proceedings
 S. Breckling, P. Kachroo, P. Lakhanpal, M. Neda, Numerical study of traffic flow models, *V International Conference of Industrial Engineering and Environmental Protections Proceedings*, pp.217-222, 2015
