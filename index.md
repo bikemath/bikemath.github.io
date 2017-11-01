@@ -3,9 +3,9 @@ layout: default
 ---
 
 ### [](#header-3)About Me
-I'm a postdoctoral researcher at the US Air Force Institute of Technology. (My less-lengthy, more-official page can be found [here](https://www.afit.edu/BIOS/bio.cfm?facID=398)). I'm a fairly-recent graduate from the University of Nevada, Las Vegas. There, I completed a Ph.D. in applied mathematics under Dr. Monika Neda. 
+I'm a postdoctoral researcher at the US Air Force Institute of Technology. (My less-lengthy, more-official page can be found [here](https://www.afit.edu/BIOS/bio.cfm?facID=398)). I'm a fairly-recent graduate from the University of Nevada, Las Vegas. There I completed a Ph.D. in applied math under Dr. Monika Neda. 
 
-Apart from my mathematics research and teaching career, my main personal interests revolve around cycling *–pun, regrettably, unintended*. Be it racing, touring, or commuting, it’s a hobby that can handily turn into a full time job.
+Apart from my research and teaching career, my main personal interests revolve around cycling *–pun, regrettably, unintended*. Be it racing, touring, or commuting, it’s a hobby that can handily turn into a full time job.
 
 <center>
 <img src="images/bikes.jpg" height="190px"> <span style="display:inline-block; width: 30px;"></span> <img src="images/math.jpg" height="190px">
@@ -21,10 +21,10 @@ S. Breckling, M. Neda, and T. Hill, [A Review of Time Relaxation Methods](http:/
 
 S. Breckling, and M. Neda [Numerical study of the Navier–Stokes-α deconvolution model with pointwise mass conservation](http://www.tandfonline.com/doi/full/10.1080/00207160.2017.1329532), *International Journal of Computer Mathematics*, pp 1-34 (Accepted 2016, Published 2017)
 
-S. Breckling, M. Neda, and F. Pahlevani, A Sensitivity Study of the Navier-Stokes-α Model, (Accepted 2017, Computers and Mathematics With Applications)
+S. Breckling, M. Neda, and F. Pahlevani, [A Sensitivity Study of the Navier-Stokes-α Model](http://www.sciencedirect.com/science/article/pii/S0898122117306168), (Preprint Published November 1, 2017, Computers and Mathematics With Applications)
 
-### [](#header-3)Submitted Research, and Drafts in Preparation
-S. Breckling, Regularizing an Extrapolated BDF2 Scheme for Incompressible Flows Regularized with Time Relaxation, (Prepared, to be submitted November 2017)
+### [](#header-3)Submitted Research and Drafts in Preparation
+S. Breckling, Regularizing an Extrapolated BDF2 Scheme for Incompressible Flows with Linear Time Relaxation, (Submitted November 2017)
 
 S. Breckling, S. Shields, The Long-Time Stability of Second Order Time-Stepping Methods for the Navier-Stokes Equations (In Preparation, to be submitted December 2017).
 
@@ -32,6 +32,7 @@ S. Breckling, S. Shields, The Long-Time Stability of Second Order Time-Stepping 
 S. Breckling, P. Kachroo, P. Lakhanpal, M. Neda, Numerical study of traffic flow models, *V International Conference of Industrial Engineering and Environmental Protections Proceedings*, pp.217-222, 2015
 
 ### [](#header-3)Recent Conference Talks
+**2017 Finite Element Circus, University of Maryland-Baltimore County, MD** *Regularizing an Extrapolated BDF2 Scheme for Incompressible Flows with Linear Time Relaxation*
 **2017 JMM, Atlanta, GA** *A Numerical study of the Navier Stokes-α Deconvolution Model with Pointwise Mass Conservation*
 
 ### [](#header-3)Education
