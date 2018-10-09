@@ -17,7 +17,7 @@ My research interests, broadly-stated, include topics in numerical analysis, sci
 
 
 ### [](#header-3)Published Research
-S. Breckling, S. Shields, [The Long-Time L^2 and H^1 Stability of Linearly Extrapolated Second-Order Time-Stepping Schemes for the 2D Incompressible Navier Stokes Equation], Applied Mathematics and Computation (Accepted 2018).
+S. Breckling, S. Shields, [The Long-Time L^2 and H^1 Stability of Linearly Extrapolated Second-Order Time-Stepping Schemes for the 2D Incompressible Navier Stokes Equation](https://www.sciencedirect.com/science/article/pii/S009630031830794X), Applied Mathematics and Computation (Accepted 2018, In Print 2/1/2019).
 
 S. Breckling, M. Neda, and T. Hill, [A Review of Time Relaxation Methods](http://www.mdpi.com/2311-5521/2/3/40/pdf), *FLUIDS*. 2017; 2,40. (Accepted 2017, Published 2017)
 
@@ -30,7 +30,7 @@ S. Breckling, [Regularizing an Extrapolated BDF2 Scheme for Incompressible Flows
 
 S. Breckling, T. Kim, M. Neda, [The Joint Model Energy, Model Enstrophy Cascade of the Navier-Stokes-alpha Deconvolution Model] (Draft in preparation for submission in 11/18.)
 
-S. Breckling, S. Shields, [A note on the long-time stability of pressure solutions to the 2D Incompressible Navier-Stokes Equations] (Draft in preparation for submission in 9/18.)
+S. Breckling, J. Fiordilino, S. Shields, [A note on the long-time stability of pressure solutions to the 2D Incompressible Navier-Stokes Equations] (Pre-print available, draft in preparation for submission in 10/18.)
 
 ### [](#header-4)Conference Proceedings
 S. Breckling, P. Kachroo, P. Lakhanpal, M. Neda, [Numerical study of traffic flow models,] *V International Conference of Industrial Engineering and Environmental Protections Proceedings*, pp.217-222, 2015
