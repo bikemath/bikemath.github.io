@@ -13,8 +13,7 @@ Apart from my research and teaching career, my main personal interests revolve a
 
 
 ### [](#header-3)Research Interests
-My research interests, broadly-stated, include topics in numerical analysis, scientific computing, and computational fluid dynamics. My work to date has centered largely around finite element methods, though I do have experience with Some examplies include techniques used to approximate turbulent flow regimes, and how sensitive these models are to perturbations of their tuning parameters. The class of models I have the most experience with are large eddy simulation models (LES), which are widely applied in engineering and atmospheric sciences.
-
+My research interests, broadly-stated, include topics in numerical analysis, scientific computing, and computational fluid dynamics. My work to date has centered largely around finite element methods, though I do have experience with the use and implementation of spectral methods. Some examples of research topics include techniques used to approximate complicated fluid flows, and how sensitive these models are to perturbations of their tuning parameters. The class of models I have the most experience with are large eddy simulation models (LES), which are widely applied in engineering and atmospheric sciences.
 
 ### [](#header-3)Published Research
 S. Breckling, S. Shields, [The Long-Time L^2 and H^1 Stability of Linearly Extrapolated Second-Order Time-Stepping Schemes for the 2D Incompressible Navier Stokes Equation](https://www.sciencedirect.com/science/article/pii/S009630031830794X), Applied Mathematics and Computation (Accepted 2018, In Print 2/1/2019).
