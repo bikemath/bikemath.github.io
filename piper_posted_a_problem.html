@@ -14470,6 +14470,300 @@ $$\sqrt{A^2-4B} \notin \mathbb{Z}$$$$\sqrt{A^2/B-4} \notin \mathbb{Z}$$$$\sqrt{A
 </div>
 
 </div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Addendum: We'll print off the prime factors of each of the solutions dumped out above. The following function is a simple prime factorization function (since I can't seem to find an obvious one in numpy.)</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">factors</span><span class="p">(</span><span class="n">nr</span><span class="p">):</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="n">factors</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">nr</span><span class="p">:</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">nr</span> <span class="o">%</span> <span class="n">i</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">factors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+            <span class="n">nr</span> <span class="o">=</span> <span class="n">nr</span> <span class="o">/</span> <span class="n">i</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">factors</span>
+
+<span class="n">num_candidates</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">candidates</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">indx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_candidates</span><span class="p">):</span>
+    <span class="n">A</span> <span class="o">=</span> <span class="n">candidates</span><span class="p">[</span><span class="n">indx</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">B</span> <span class="o">=</span> <span class="n">candidates</span><span class="p">[</span><span class="n">indx</span><span class="p">,</span><span class="mi">1</span><span class="p">]</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;A:&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">factors</span><span class="p">(</span><span class="n">A</span><span class="p">)))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;B:&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">factors</span><span class="p">(</span><span class="n">B</span><span class="p">)))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;--------------------&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>A:[17]
+B:[2, 2, 17]
+--------------------
+A:[2, 2, 5]
+B:[2, 3, 3, 5]
+--------------------
+A:[2, 2, 5]
+B:[2, 7, 7]
+--------------------
+A:[2, 13]
+B:[3, 3, 13]
+--------------------
+A:[2, 17]
+B:[2, 2, 2, 2, 17]
+--------------------
+A:[37]
+B:[3, 3, 37]
+--------------------
+A:[2, 2, 2, 5]
+B:[2, 2, 2, 3, 3, 5]
+--------------------
+A:[2, 2, 2, 5]
+B:[2, 2, 2, 7, 7]
+--------------------
+A:[41]
+B:[2, 2, 41]
+--------------------
+A:[2, 5, 5]
+B:[5, 11, 11]
+--------------------
+A:[3, 17]
+B:[2, 2, 3, 3, 17]
+--------------------
+A:[2, 2, 13]
+B:[2, 7, 7]
+--------------------
+A:[2, 2, 13]
+B:[2, 2, 3, 3, 13]
+--------------------
+A:[2, 2, 13]
+B:[2, 17, 17]
+--------------------
+A:[2, 2, 13]
+B:[2, 5, 5, 13]
+--------------------
+A:[2, 29]
+B:[5, 5, 29]
+--------------------
+A:[2, 2, 3, 5]
+B:[2, 3, 3, 3, 3, 5]
+--------------------
+A:[2, 2, 3, 5]
+B:[2, 3, 3, 7, 7]
+--------------------
+A:[61]
+B:[3, 3, 61]
+--------------------
+A:[5, 13]
+B:[3, 3, 13]
+--------------------
+A:[5, 13]
+B:[2, 2, 5, 13]
+--------------------
+A:[5, 13]
+B:[5, 11, 11]
+--------------------
+A:[2, 2, 17]
+B:[2, 7, 7]
+--------------------
+A:[2, 2, 17]
+B:[2, 3, 3, 17]
+--------------------
+A:[2, 2, 17]
+B:[2, 5, 5, 17]
+--------------------
+A:[2, 41]
+B:[2, 2, 2, 2, 41]
+--------------------
+A:[5, 17]
+B:[2, 2, 2, 2, 17]
+--------------------
+A:[5, 17]
+B:[5, 11, 11]
+--------------------
+A:[5, 17]
+B:[3, 3, 5, 17]
+--------------------
+A:[97]
+B:[2, 2, 97]
+--------------------
+A:[2, 2, 5, 5]
+B:[2, 17, 17]
+--------------------
+A:[2, 2, 5, 5]
+B:[2, 3, 3, 3, 3, 5]
+--------------------
+A:[2, 2, 2, 13]
+B:[2, 2, 2, 7, 7]
+--------------------
+A:[2, 2, 29]
+B:[2, 3, 3, 29]
+--------------------
+A:[2, 5, 13]
+B:[2, 2, 3, 3, 13]
+--------------------
+A:[2, 2, 2, 17]
+B:[2, 2, 2, 7, 7]
+--------------------
+A:[137]
+B:[2, 2, 137]
+--------------------
+A:[5, 29]
+B:[5, 11, 11]
+--------------------
+A:[2, 73]
+B:[3, 3, 73]
+--------------------
+A:[2, 2, 3, 13]
+B:[2, 3, 3, 7, 7]
+--------------------
+A:[5, 37]
+B:[2, 2, 5, 37]
+--------------------
+A:[2, 2, 3, 17]
+B:[2, 3, 3, 7, 7]
+--------------------
+A:[5, 41]
+B:[5, 11, 11]
+--------------------
+A:[5, 41]
+B:[2, 2, 2, 2, 41]
+--------------------
+A:[2, 2, 53]
+B:[2, 17, 17]
+--------------------
+A:[2, 109]
+B:[3, 3, 109]
+--------------------
+A:[13, 17]
+B:[3, 3, 13]
+--------------------
+A:[13, 17]
+B:[2, 2, 2, 2, 17]
+--------------------
+A:[241]
+B:[2, 2, 241]
+--------------------
+A:[2, 2, 5, 13]
+B:[2, 3, 3, 5]
+--------------------
+A:[2, 2, 73]
+B:[2, 7, 7]
+--------------------
+A:[2, 2, 5, 17]
+B:[2, 3, 3, 17]
+--------------------
+A:[2, 2, 5, 17]
+B:[2, 3, 3, 3, 3, 5]
+--------------------
+A:[2, 5, 37]
+B:[5, 11, 11]
+--------------------
+A:[2, 2, 97]
+B:[2, 7, 7]
+--------------------
+A:[5, 5, 17]
+B:[2, 2, 17]
+--------------------
+A:[2, 13, 17]
+B:[2, 2, 3, 3, 13]
+--------------------
+A:[5, 89]
+B:[2, 2, 89]
+--------------------
+A:[17, 29]
+B:[5, 5, 29]
+--------------------
+A:[2, 2, 5, 5, 5]
+B:[2, 3, 3, 5]
+--------------------
+A:[2, 2, 2, 5, 13]
+B:[2, 2, 2, 3, 3, 5]
+--------------------
+A:[2, 5, 53]
+B:[5, 11, 11]
+--------------------
+A:[2, 2, 137]
+B:[2, 17, 17]
+--------------------
+A:[5, 113]
+B:[2, 2, 113]
+--------------------
+A:[2, 2, 2, 73]
+B:[2, 2, 2, 7, 7]
+--------------------
+A:[13, 53]
+B:[3, 3, 13]
+--------------------
+A:[17, 41]
+B:[2, 2, 17]
+--------------------
+A:[2, 2, 2, 97]
+B:[2, 2, 2, 7, 7]
+--------------------
+A:[2, 2, 3, 5, 13]
+B:[2, 3, 3, 3, 3, 5]
+--------------------
+A:[2, 5, 5, 17]
+B:[2, 2, 2, 2, 17]
+--------------------
+A:[2, 5, 5, 17]
+B:[3, 3, 5, 17]
+--------------------
+A:[2, 2, 3, 73]
+B:[2, 3, 3, 7, 7]
+--------------------
+A:[13, 73]
+B:[2, 2, 73]
+--------------------
+A:[5, 193]
+B:[5, 11, 11]
+--------------------
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
 </body>
 
 
